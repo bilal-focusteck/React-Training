@@ -6,20 +6,22 @@ import React from 'react';
 
 
 function App() {
-  const fullname = "Bilal Ahmad Qureshi";
-  const fname = "Bilal";
-  const mname = "Ahmad";
-  const lname = "Qureshi";
+  const fullname = "Bilal Ahmad Qureshi"; const fname = "Bilal";
+  const mname = "Ahmad"; const lname = "Qureshi";
   const ctime = new Date().toLocaleTimeString();
   const cdate = new Date().toLocaleDateString();
-  const img1 = "https://picsum.photos/200/300";
-  const img2 = "https://picsum.photos/200/300";
-  const img3 = "https://picsum.photos/200/300";
-  const link1 = "https://reactjs.org/";
+  const img1 = "https://picsum.photos/200/300"; const img2 = "https://picsum.photos/200/300";
+  const img3 = "https://picsum.photos/200/300"; const link1 = "https://reactjs.org/";
+  //to add inline css in react, make object and add obj name in JSX 
+  const heading = {
+    margin: "5px",
+    padding: "5px",
+    textAlign: "center"
+  };
 
   return (
     <div>
-      <h1 className='heading'>{`My name is ${fname} ${mname} ${lname}`}</h1>,
+      <h1 style = {heading}>{`My name is ${fname} ${mname} ${lname}`}</h1>,
       <h2 className='s_heading'>This is my first react test app for training</h2>,
       <div className='para'>
         <p>The sum of 2 and 3 is {2 + 3}</p>,
