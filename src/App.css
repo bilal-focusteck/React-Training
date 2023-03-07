@@ -2,37 +2,37 @@
   
 } */
 
-.s_heading{
+.s_heading {
   margin: 30px;
   padding: 5px;
   text-align: center;
 }
 
-.para{
+/* .para{
+  margin: 30px;
+  padding: 5px;
+  text-align: center;
+} */
+
+/* .images{
+  margin: 30px;
+  padding: 5px;
+  text-align: center;
+} */
+
+.third_heading {
   margin: 30px;
   padding: 5px;
   text-align: center;
 }
 
-.images{
+.list {
   margin: 30px;
   padding: 5px;
   text-align: center;
 }
 
-.third_heading{
-  margin: 30px;
-  padding: 5px;
-  text-align: center;
-}
-
-.list{
-  margin: 30px;
-  padding: 5px;
-  text-align: center;
-}
-
-.sublist{
+.sublist {
   margin: 20px;
   padding: 10px;
   text-align: center;
